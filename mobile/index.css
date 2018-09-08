@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*logo图片*/
+.logo {
+	width: 320px;
+	height: 238px;
+	margin: 0 auto;
+	padding: 22px 0 16px;
+}
+
+.logo img {
+	width: 320px;
+	height: 238px;
+	display: block;
+}
+
+/*立即安装*/
+.lijianzhuang {
+	display: block;
+	width: 230px;
+	height: 46px;
+	margin: 0 auto;
+}
+
+.lijianzhuang img {
+	width: 230px;
+	height: 46px;
+}
+
+/*提示文字*/
+.tishi {
+	color: #87949f;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 0 35px;
+}
+
+/*主题图片*/
+.zhuti {
+	display: block;
+	width: 320px;
+	margin: 0 auto;
+}
+
+/*列表*/
+.list {
+	width: 320px;
+	margin: 0 auto;
+	padding: 31px 0 14px;
+}
+
+.list li {
+	padding-left:44px ;
+	padding-bottom: 14px;
+	overflow: hidden;
+	
+}
+
+.list li img {
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+
+.list li .biaotitxt {
+	padding-left: 14px;
+	float: left;
+}
+
+.list li .biaotitxt h1 {
+	font-size: 13px;
+	color: #3a4048;
+	padding: 14px 0 11px;
+	font-weight: normal;
+}
+
+.list li .biaotitxt p {
+	font-size: 11px;
+	color: #87949F;
+}
+
+/*网页底部*/
+footer {
+	font-size: 12px;
+	color: #87949F;
+	text-align: center;
+	padding: 10px 0;
+	background: #f9f9f9;
+	line-height: 1.5em;
+}
+
+/*响应式布局，视口超过768，设置的样式*/
+
+/*logo图片*/
+@media only screen and (min-width: 768px) {
+	.logo {
+		width: 640px;
+		height: 476px;
+		margin: 0 auto;
+		padding: 44px 0 32px;
+	}
+	
+	.logo img {
+		width: 640px;
+		height: 476px;
+	}
+	
+		/*立即安装*/
+	.lijianzhuang {
+		width: 640px;
+		height: 92px;
+		margin: 0 auto;
+	}
+	
+	.lijianzhuang img {
+		width: 640px;
+		height: 92px;
+	}
+	
+	/*提示文字*/
+	.tishi {
+		color: #87949f;
+		font-size: 16px;
+		text-align: center;
+		padding: 20px 0 70px;
+	}
+	
+		/*主题图片*/
+	.zhuti {
+		display: block;
+		width: 640px;
+		margin: 0 auto;
+	}
+	
+	/*列表*/
+	.list {
+		width: 640px;
+		padding: 62px 0 28px;
+	}
+	
+	.list li {
+		padding-left:88px ;
+		padding-bottom: 28px;
+		overflow: hidden;
+		
+	}
+	
+	.list li img {
+	width: 128px;
+	height: 128px;
+}
+
+	.list li .biaotitxt {
+		padding-left: 28px;
+	}
+	
+	.list li .biaotitxt h1 {
+		font-size: 18px;
+		color: #3a4048;
+		padding: 28px 0 22px;
+	}
+	
+	.list li .biaotitxt p {
+		font-size: 14px;
+	}
+	
+	/*网页底部*/
+	footer {
+		font-size: 16px;
+		padding: 20px 0;
+	}
+}
